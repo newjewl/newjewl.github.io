@@ -1,0 +1,239 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+<section class="content">
+
+<div class="container-narrow">
+<div class="row-fluid marketing">
+<div class="span8">
+
+     
+      <style type="text/css">
+
+  #stage {
+    margin: 2em auto 1em 50%;
+    height: 250px;
+    -webkit-perspective: 1200px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective: 1200px;
+    -moz-perspective-origin: 0 50%;
+    -ms-perspective: 1200px;
+    -ms-perspective-origin: 0 50%;
+     perspective: 1200px;
+     perspective-origin: 0 50%;
+  }
+
+ #rotator a {
+    position: absolute;
+    left: -131px;
+  }
+
+ #rotator a img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+  }
+
+#rotator a:nth-of-type(1) img {
+    -webkit-transform: rotateY(-90deg) translateZ(500px);
+    -moz-transform: rotateY(-90deg) translateZ(500px);
+    -ms-transform: rotateY(-90deg) translateZ(500px);
+    transform: rotateY(-90deg) translateZ(500px);
+  }
+
+#rotator a:nth-of-type(2) img {
+    -webkit-transform: rotateY(-60deg) translateZ(500px);
+    -moz-transform: rotateY(-60deg) translateZ(500px);
+    -ms-transform: rotateY(-60deg) translateZ(500px);
+     transform: rotateY(-60deg) translateZ(500px);
+  }
+
+#rotator a:nth-of-type(3) img {
+    -webkit-transform: rotateY(-30deg) translateZ(500px);
+    -moz-transform: rotateY(-30deg) translateZ(500px);
+    -ms-transform: rotateY(-30deg) translateZ(500px);
+    transform: rotateY(-30deg) translateZ(500px);
+  }
+
+#rotator a:nth-of-type(4) img {
+    -webkit-transform: translateZ(500px);
+    -moz-transform: translateZ(500px);
+    -ms-transform: translateZ(500px);
+     transform: translateZ(500px);
+
+    background: #000;
+}
+#rotator a:nth-of-type(5) img {
+    -webkit-transform: rotateY(30deg) translateZ(500px);
+    -moz-transform: rotateY(30deg) translateZ(500px);
+    -ms-transform: rotateY(30deg) translateZ(500px);
+     transform: rotateY(30deg) translateZ(500px);
+  }
+
+#rotator a:nth-of-type(6) img {
+    -webkit-transform: rotateY(60deg) translateZ(500px);
+    -moz-transform: rotateY(60deg) translateZ(500px);
+    -ms-transform: rotateY(60deg) translateZ(500px);
+     transform: rotateY(60deg) translateZ(500px);
+
+
+  }
+
+#rotator a:nth-of-type(n+7) { display: none; }
+
+ @-webkit-keyframes rotator {
+    from { -webkit-transform: rotateY(0deg);  }
+    to   { -webkit-transform: rotateY(30deg); }
+  }
+
+  @-webkit-keyframes rotator {
+    from { -moz-transform: rotateY(0deg);  }
+    to   { -moz-transform: rotateY(30deg); }
+  }
+@-webkit-keyframes rotator {
+    from { -ms-transform: rotateY(0deg);  }
+    to   { -ms-transform: rotateY(30deg); }
+  }
+@-webkit-keyframes rotator {
+    from { transform: rotateY(0deg);  }
+    to   { transform: rotateY(30deg); }
+  }
+
+
+  
+
+#rotator {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+
+    -moz-transform-origin: 0 0;
+    -moz-transform-style: preserve-3d;
+    -moz-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1s;
+
+    -ms-transform-origin: 0 0;
+    -ms-transform-style: preserve-3d;
+    -ms-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 1s;
+
+     transform-origin: 0 0;
+     transform-style: preserve-3d;
+     animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+     animation-duration: 1s;
+     animation-delay: 1s;
+
+
+  }
+
+#rotator:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+     animation-play-state: paused;
+  }
+
+
+
+</style>
+
+<div id="stage">
+<div id="rotator" style="-webkit-animation-name: rotator;">
+<a href="1.jpg"><img src="/images/1.jpg" width="250" ></a>
+<a href="2.jpg"><img src="/images/2.jpg" width="250" ></a>
+<a href="3.jpg"><img src="/images/3.jpg" width="250" ></a>
+<a href="4.jpg"><img src="/images/4.jpg" width="250" ></a>
+<a href="5.jpg"><img src="/images/5.jpg" width="250" ></a>
+<a href="6.jpg"><img src="/images/6.jpg" width="250" ></a>
+<a href="7.jpg"><img src="/images/7.jpg" width="250" ></a>
+<a href="8.jpg"><img src="/images/8.jpg" width="250" ></a>
+</div>
+</div>
+
+<script type="text/javascript">
+
+  document.addEventListener("DOMContentLoaded", function() {
+
+    var rotateComplete = function() {
+      target.style.webkitAnimationName = "";
+      target.style.mozAnimationName = "";
+      target.style.msAnimationName = "";
+      target.style.AnimationName = "";
+
+      target.insertBefore(arr[arr.length-1], arr[0]);
+      setTimeout(function(el) {
+        el.style.webkitAnimationName = "rotator";
+        el.style.mozAnimationName = "rotator";
+        el.style.msAnimationName = "rotator";
+        el.style.AnimationName = "rotator";
+      }, 0, target);
+    };
+
+    var target = document.getElementById("rotator");
+    var arr = target.getElementsByTagName("a");
+
+    target.addEventListener("webkitAnimationEnd", rotateComplete, false);
+    target.addEventListener("mozAnimationEnd", rotateComplete, false);
+    target.addEventListener("msAnimationEnd", rotateComplete, false);
+    target.addEventListener("AnimationEnd", rotateComplete, false);
+
+
+
+  }, false);
+
+</script>
+
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row-fluid">
+  <div class="span12">
+<table border="0" width="100%">
+<tr>
+<th> <tr>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+  </tr></th>
+
+</tr>
+<tr>
+  <td><P><b></b></P><P><img src="/images/designs/gold-coin.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/ganesh-coin.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/saraswati-coin.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/necklace-sets.jpeg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/kisna.jpg" height="150" width="150"></P></td>
+
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/designs/Tanishq350.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/earring.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/earring1.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/sundrop.jpg" height="150" width="150"></P></td>
+  <td><P><b></b></P><P><img src="/images/designs/patla4.jpg" height="150" width="150"></P></td>
+
+
+</tr>
+</table>
+
+<br><br><br><br><br>
+</div>
+</div>
+</div>
+</section>

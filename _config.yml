@@ -1,0 +1,13 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+
+permalink: /collections/:title
+permalink: /design/:title
+permalink: /wedding/:title
+
+
+auto: true
+name: newjewl
+url: http://newjewl/github.io
+description: Jekyll blog is ninja
