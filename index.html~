@@ -152,14 +152,14 @@ title: Your New Jekyll Site
 
 <div id="stage">
 <div id="rotator" style="-webkit-animation-name: rotator;">
-<a href="1.jpg"><img src="/images/1.jpg" width="250" ></a>
-<a href="2.jpg"><img src="/images/2.jpg" width="250" ></a>
-<a href="3.jpg"><img src="/images/3.jpg" width="250" ></a>
-<a href="4.jpg"><img src="/images/4.jpg" width="250" ></a>
-<a href="5.jpg"><img src="/images/5.jpg" width="250" ></a>
-<a href="6.jpg"><img src="/images/6.jpg" width="250" ></a>
-<a href="7.jpg"><img src="/images/7.jpg" width="250" ></a>
-<a href="8.jpg"><img src="/images/8.jpg" width="250" ></a>
+<a href="1.jpg"><img src="/images/1.jpg" class="jewel" width="250" ></a>
+<a href="2.jpg"><img src="/images/2.jpg" class="jewel" width="250" ></a>
+<a href="3.jpg"><img src="/images/3.jpg" class="jewel" width="250" ></a>
+<a href="4.jpg"><img src="/images/4.jpg" class="jewel" width="250" ></a>
+<a href="5.jpg"><img src="/images/5.jpg" class="jewel" width="250" ></a>
+<a href="6.jpg"><img src="/images/6.jpg" class="jewel" width="250" ></a>
+<a href="7.jpg"><img src="/images/7.jpg" class="jewel" width="250" ></a>
+<a href="8.jpg"><img src="/images/8.jpg" class="jewel" width="250" ></a>
 </div>
 </div>
 
@@ -195,7 +195,8 @@ title: Your New Jekyll Site
   }, false);
 
 </script>
-<br><br><br><br>
+
+
 </div>
 </div>
 </div>
