@@ -1,8 +1,14 @@
 @import url('demo.css');
 
+
+
 @font-face {
   font-family: 'kiran';
   src: url('kiran.ttf');
+}
+
+h1, h2 {
+	color: #ffffff;
 }
 
 h4 {
