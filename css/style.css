@@ -1,7 +1,28 @@
 @import url('demo.css');
 
-img.jewel {
+@font-face {
+  font-family: 'kiran';
+  src: url('kiran.ttf');
+}
 
+h4 {
+
+   font-family:  'kiran', 'Helvetica';
+       font-size: 2em;
+       font-weight: 100;
+       color:#000; 
+       text-align: center;
+
+}
+
+.contact {
+	background-color: #ffd700;
+	padding: 15px;
+
+
+}
+
+img.jewel {
  width: 15.62em;
  height: 15.62em;
 }
