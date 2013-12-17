@@ -1,0 +1,84 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+<section class="content">
+<div class="container-fluid">
+<div class="row-fluid">
+  <div class="span12">
+<div class="container"> 
+<h2>Bangles</h2>
+ <table border="0" width="100%">
+<tr>
+<th> <tr>
+    <th width="25%"></th>
+    <th width="25%"></th>
+    <th width="25%"></th>
+    <th width="25%"></th>
+  </tr></th>
+
+</tr>
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/goldbangles.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/images3.jpeg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/gold-bengles.jpg" height="300" width="300"></P></td>
+  
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/bridal-bangle.jpg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/big-bangle.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/bangles-big.jpg" height="300" width="300"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/images1.jpeg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/images.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/images5.jpg" height="300" width="300"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/images.jpeg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/traditional-gold.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/kundan-kada.jpg" height="300" width="300"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/latest-design.jpg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/new-bangles.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/images3.jpeg" height="300" width="300"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/new-design4.jpg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/gold-bangles-cataguae.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/3.jpg" height="300" width="300"></P></td>
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/diamond.jpg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/bangles.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/fashion-design.jpg" height="300" width="300"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/bangles/bangles-set.jpg" height="300" width="300"></P></td>  
+  <td><P><b></b></P><P><img src="/images/bangles/new-kada.jpg" height="300" width="300"></P></td>
+  <td><P><b></b></P><P><img src="/images/bangles/thick-kada.jpg" height="300" width="300"></P></td>
+ 
+</tr>
+
+
+
+</table>
+
+</div>
+</div>
+</section>

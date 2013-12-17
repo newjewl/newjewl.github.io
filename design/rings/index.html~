@@ -1,0 +1,107 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+<section class="content">
+<div class="container-fluid">
+<div class="row-fluid">
+  <div class="span12">
+<div class="container"> 
+<h2>Rings</h2>
+ <table border="0" width="100%">
+<tr>
+<th> <tr>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+
+  </tr></th>
+
+</tr>
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/indian-ring.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/gold-men-ring.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images1.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images2.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images3.jpg" height="100" width="100"></P></td>
+  
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/thumb.gif" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/images10.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images11.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images12.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images13.jpg" height="100" width="100"></P></td>
+ 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/images4.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/images5.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images14.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images15.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images16.jpg" height="100" width="100"></P></td>
+ 
+</tr>
+
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/images6.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/images7.jpeg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images8.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images9.jpeg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images5.jpg" height="100" width="100"></P></td> 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/images20.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/images21.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images22.jpeg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images23.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/gold-ring.jpg" height="100" width="100"></P></td> 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/jsd1173_large.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/surat-diamond.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/images24.JPG" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/signity-ring.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/product.jpg" height="100" width="100"></P></td> 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/gold-ring-22carat.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/gold-ring-22k.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/gold-wedding-ring.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/ring-design-for-men.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/zoom.jpg" height="100" width="100"></P></td> 
+</tr>
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/3.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/479.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/316742.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/700001.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/1300.gif" height="100" width="100"></P></td> 
+</tr>
+
+
+<tr>
+  <td><P><b></b></P><P><img src="/images/rings/diamond-ring.jpg" height="100" width="100"></P></td>  
+  <td><P><b></b></P><P><img src="/images/rings/mens-wedding-ring-men-s-gold-band-diamond-band-in-18k-yellow-gold.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/exclusive-design.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/flat-ring.jpg" height="100" width="100"></P></td>
+  <td><P><b></b></P><P><img src="/images/rings/new-ring.jpg" height="100" width="100"></P></td> 
+</tr>
+
+
+</table>
+
+</div>
+</div>
+</section>
