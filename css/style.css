@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'kiran';
-  src: url('kiran.ttf');
+  src: url('/fonts/kiran.ttf');
 }
 
 h1, h2 {
@@ -21,6 +21,14 @@ h4 {
 
 }
 
+.about {
+	 font-family:  'kiran', 'Helvetica';
+       font-size: 1.5em;
+       font-weight: 100;
+       color:#fff; 
+       text-align: center;
+
+}
 
 
 img.jewel {

@@ -47,7 +47,14 @@ $('#myModal').modal('show');
     <body >
        
 
-     <div class="container-fluid">
+    <div class="bs-example" style="padding-bottom: 24px;">
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+    </div><!-- /example -->
+
+
+  <div class="container-fluid">
   <nav id="menu-wrap">
     
 <div class="row-fluid">
