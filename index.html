@@ -4,157 +4,68 @@ title: Your New Jekyll Site
 ---
 
 
+
+
 <section class="content">
-     
-      <style type="text/css">
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-6">
+	<style type="text/css">
 
-  #stage {
-    margin: 2em auto 1em 50%;
-    height: 250px;
-    -webkit-perspective: 1200px;
-    -webkit-perspective-origin: 0 50%;
-    -moz-perspective: 1200px;
-    -moz-perspective-origin: 0 50%;
-    -ms-perspective: 1200px;
-    -ms-perspective-origin: 0 50%;
-     perspective: 1200px;
-     perspective-origin: 0 50%;
+  #stage4 {
+    margin: 0 auto;
+    
+    
   }
-
- #rotator a {
+  #stage4 a {
     position: absolute;
-    left: -81px;
   }
- #rotator a img {
+  #stage4 a img {
     padding: 10px;
-    border: 1px solid #ccc;
+   border: 0px solid #ccc;
     background: #fff;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-
   }
 
-#rotator a:nth-of-type(1) img {
-    -webkit-transform: rotateY(-90deg) translateZ(500px);
-    -moz-transform: rotateY(-90deg) translateZ(500px);
-    -ms-transform: rotateY(-90deg) translateZ(500px);
-    transform: rotateY(-90deg) translateZ(500px);
-  }
-
-#rotator a:nth-of-type(2) img {
-    -webkit-transform: rotateY(-60deg) translateZ(500px);
-    -moz-transform: rotateY(-60deg) translateZ(500px);
-    -ms-transform: rotateY(-60deg) translateZ(500px);
-     transform: rotateY(-60deg) translateZ(500px);
-  }
-
-#rotator a:nth-of-type(3) img {
-    -webkit-transform: rotateY(-30deg) translateZ(500px);
-    -moz-transform: rotateY(-30deg) translateZ(500px);
-    -ms-transform: rotateY(-30deg) translateZ(500px);
-    transform: rotateY(-30deg) translateZ(500px);
-  }
-
-#rotator a:nth-of-type(4) img {
-    -webkit-transform: translateZ(500px);
-    -moz-transform: translateZ(500px);
-    -ms-transform: translateZ(500px);
-     transform: translateZ(500px);
-
-    background: #000;
-}
-#rotator a:nth-of-type(5) img {
-    -webkit-transform: rotateY(30deg) translateZ(500px);
-    -moz-transform: rotateY(30deg) translateZ(500px);
-    -ms-transform: rotateY(30deg) translateZ(500px);
-     transform: rotateY(30deg) translateZ(500px);
-  }
-
-#rotator a:nth-of-type(6) img {
-    -webkit-transform: rotateY(60deg) translateZ(500px);
-    -moz-transform: rotateY(60deg) translateZ(500px);
-    -ms-transform: rotateY(60deg) translateZ(500px);
-     transform: rotateY(60deg) translateZ(500px);
-
-
-  }
-
-#rotator a:nth-of-type(n+7) { display: none; }
-
- @-webkit-keyframes rotator {
-    from { -webkit-transform: rotateY(0deg);  }
-    to   { -webkit-transform: rotateY(30deg); }
-  }
-
-  @-moz-keyframes rotator {
-    from { -moz-transform: rotateY(0deg);  }
-    to   { -moz-transform: rotateY(30deg); }
-  }
-
-  @-ms-keyframes rotator {
-    from { -ms-transform: rotateY(0deg);  }
-    to   { -ms-transform: rotateY(30deg); }
-  }
-
-  @keyframes rotator {
-    from { transform: rotateY(0deg);  }
-    to   { transform: rotateY(30deg); }
-  }
-
-
-  
-
-#rotator {
-    -webkit-transform-origin: 0 0;
-    -webkit-transform-style: preserve-3d;
-    -webkit-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+  #stage4 a:nth-of-type(1) {
+    -webkit-animation-name: fader;
+    -webkit-animation-delay: 4s;
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 1s;
-
-    -moz-transform-origin: 0 0;
-    -moz-transform-style: preserve-3d;
-    -moz-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+    -moz-animation-name: fader;
+    -moz-animation-delay: 4s;
     -moz-animation-duration: 1s;
-    -moz-animation-delay: 1s;
-
-    -ms-transform-origin: 0 0;
-    -ms-transform-style: preserve-3d;
-    -ms-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
+    -ms-animation-name: fader;
+    -ms-animation-delay: 4s;
     -ms-animation-duration: 1s;
-    -ms-animation-delay: 1s;
-
-     transform-origin: 0 0;
-     transform-style: preserve-3d;
-     animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
-     animation-duration: 1s;
-     animation-delay: 1s;
-
-
+    z-index: 20;
   }
+  #stage4 a:nth-of-type(2) { z-index: 10; }
+  #stage4 a:nth-of-type(n+3) { display: none; }
 
-#rotator:hover {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
-     animation-play-state: paused;
+  @-webkit-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
   }
-
-
+  @-moz-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  @-ms-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
 
 </style>
 
-<div id="stage">
-<div id="rotator" style="-webkit-animation-name: rotator;">
-<a href="1.jpg"><img src="/images/1.jpg" class="jewel" width="250" ></a>
-<a href="2.jpg"><img src="/images/2.jpg" class="jewel" width="250" ></a>
-<a href="3.jpg"><img src="/images/3.jpg" class="jewel" width="250" ></a>
-<a href="4.jpg"><img src="/images/4.jpg" class="jewel" width="250" ></a>
-<a href="5.jpg"><img src="/images/5.jpg" class="jewel" width="250" ></a>
-<a href="6.jpg"><img src="/images/6.jpg" class="jewel" width="250" ></a>
-<a href="7.jpg"><img src="/images/7.jpg" class="jewel" width="250" ></a>
-<a href="8.jpg"><img src="/images/8.jpg" class="jewel" width="250" ></a>
+<div class="wrap">
+<div id="stage4">
+<a href="/images/1.jpg"><img src="/images/1.jpg" width="500" height="300"></a>
+<a href="/images/2.jpg"><img src="/images/2.jpg" width="500" height="300"></a>
+<a href="/images/3.jpg"><img src="/images/3.jpg" width="500" height="300"></a>
+<a href="/images/4.jpg"><img src="/images/4.jpg" width="500" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/5.jpg" width="500" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/6.jpg" width="500" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/7.jpg" width="500" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/8.jpg" width="500" height="300"></a>
 </div>
 </div>
 
@@ -162,42 +73,36 @@ title: Your New Jekyll Site
 
   document.addEventListener("DOMContentLoaded", function() {
 
-    var rotateComplete = function() {
-      target.style.webkitAnimationName = "";
-      target.style.mozAnimationName = "";
-      target.style.msAnimationName = "";
-      target.style.AnimationName = "";
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
 
-      target.insertBefore(arr[arr.length-1], arr[0]);
-      setTimeout(function(el) {
-        el.style.webkitAnimationName = "rotator";
-        el.style.mozAnimationName = "rotator";
-        el.style.msAnimationName = "rotator";
-        el.style.AnimationName = "rotator";
-      }, 0, target);
-    };
-
-    var target = document.getElementById("rotator");
-    var arr = target.getElementsByTagName("a");
-
-    target.addEventListener("webkitAnimationEnd", rotateComplete, false);
-    target.addEventListener("mozAnimationEnd", rotateComplete, false);
-    target.addEventListener("msAnimationEnd", rotateComplete, false);
-    target.addEventListener("AnimationEnd", rotateComplete, false);
-
-
+    var stage = document.getElementById("stage4");
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("webkitAnimationEnd", fadeComplete, false);
+      arr[i].addEventListener("animationend", fadeComplete, false);
+      arr[i].addEventListener("MSAnimationEnd", fadeComplete, false);
+    }
 
   }, false);
 
 </script>
 
+</div> 
 
+<div class="col-sm-6">
+  <div class="diamond">
+  <img src="/images/diamondmain.jpg" height="300" width="450">
 </div>
 </div>
 </div>
-<div class="container-fluid">
-<div class="row-fluid">
-  <div class="span12">
+
+<br>
+
+
+
+
+<div class="container">
+
 
 <table border="0" width="100%">
 <tr>
@@ -234,4 +139,6 @@ title: Your New Jekyll Site
 </div>
 </div>
 </div>
+<br><br><br><br><br><br>
 </section>
+
