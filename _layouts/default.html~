@@ -147,7 +147,7 @@ if (isiPad) $('#menu ul').addClass('no-transition');
             <div class="footer">
               <div class="contact">
                 
-                <img src="/images/footer.jpg" width="900" height="100" ></a>
+                <img src="/images/footer.jpg" width="1100" height="100" ></a>
 
                 </div>
                 <br><br><br><br>
