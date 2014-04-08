@@ -79,4 +79,10 @@ img.jewel {
 .footer {
   margin: 0 auto;
   width:1000px;
+  background-color: #FFB6C1;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
